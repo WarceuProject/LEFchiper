@@ -2,10 +2,10 @@
 name = "lefchiper"
 version = "0.1.0"
 description = "Modular encryption tool with modes like glasicc and lefchaos"
-authors = [{ name = "Synnaulaid", email = "you@example.com" }]
+authors = [{ name = "Synnaulaid", email = "syn@warceuproject.org" }]
 readme = "README.md"
 requires-python = ">=3.7"
-license = { text = "WPCL v.0.1" }
+license = { text = "WPCL v1.0" }
 
 [project.scripts]
 lefchiper = "lefchiper.__main__:main"
