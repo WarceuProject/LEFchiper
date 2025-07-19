@@ -20,3 +20,9 @@ def glasicc_decrypt(text):
             hasil += char
             i += 1
     return hasil
+
+def simpan_kapital(teks):
+    return [i for i, c in enumerate(teks) if c.isupper()]
+
+def terapkan_kapital(teks, posisi):
+    return ''.join(c.upper() if i in posisi else c for i, c in enumerate(teks))
